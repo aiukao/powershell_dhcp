@@ -1,2 +1,7 @@
 # powershell_dhcp
-manage windows dhcp server in powershell
+windowsのDHCPサーバへ変更を行うスクリプトです。
+仕様として
+・ドメイン環境
+・MACアドレスを利用してポリシーによる制御も行っている
+・IPの削除だけをしたいときとMACアドレスとIPを同時に削除したいときがある
+・csvを利用して対象を決定する
